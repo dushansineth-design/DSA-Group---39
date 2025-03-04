@@ -111,7 +111,7 @@ namespace DSA_Group___39
         {
             if (head == null) return false;
 
-            if (head.Data.ID == id)  // Delete first node
+            if (head.Data.ID == id)
             {
                 head = head.Next;
                 count--;
